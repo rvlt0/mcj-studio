@@ -9,11 +9,11 @@
 
 </div>
 
-# Figma Prototype
+<h1 align="center">Figma Prototype</h1>
 
-<div style="display: flex; flex-direction: row; justify-content: center;">
-    <img src="img/studio-dark.png" alt="Dark theme"/>
-    <img src="img/studio-light.png" alt="Light theme"/>
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+    <img src="img/studio-dark.png" width="49%" alt="Dark theme"/>
+    <img src="img/studio-light.png"  width="49%" alt="Light theme"/>
 </div>
 
 # Compile
