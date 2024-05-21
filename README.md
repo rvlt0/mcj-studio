@@ -1,7 +1,12 @@
 <h1 align="center">MCJ Studio</h1>
 
 <div align="center">
-    [![GitHub Issues](https://img.shields.io/github/issues/NvChad/NvChad.svg?style=flat-square&label=Issues&color=d77982)](https://github.com/marcos-c1/nvim-config/issues)
+
+[![React](https://shields.io/badge/react-black?logo=react&style=for-the-badge)](https://react.dev/)
+[![Typescript](https://shields.io/badge/TypeScript-0F172A?logo=TypeScript&logoColor=FFF&style=flat-square)](https://www.typescriptlang.org/)
+[![Tailwind](https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss)](https://tailwindcss.com/)
+[![GitHub Issues](https://img.shields.io/github/issues/NvChad/NvChad.svg?style=flat-square&label=Issues&color=d77982)](https://github.com/rvlt0/mcj-studio/issues)
+
 </div>
 
 # Figma Prototype
