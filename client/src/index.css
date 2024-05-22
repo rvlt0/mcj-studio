@@ -11,6 +11,15 @@
   }
 }
 
+button:hover {
+ transition: all .3s ease-in;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -23,10 +32,10 @@ ul > li, ol > li {
   cursor: pointer;
 }
 
-li:hover {
+a {
+  color: inherit;
   user-select: none;
-  transition: all 7s ease-in;
-  text-decoration: underline;
+  transition: text-decoration-color 300ms;
 }
 
 code {
