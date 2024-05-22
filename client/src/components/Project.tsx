@@ -8,7 +8,7 @@ const Project = () => {
   ]
 
   return (
-    <section className="grid sm:grid-cols-1 md:grid-cols-2 p-10 my-20" id="project">
+    <section className="grid  sm:grid-cols-2 p-10 my-20" id="project">
       <div className="grid md:grid-cols-1 xl:grid-cols-2 justify-center grid-rows-auto mb-20 md:mr-20">
         {projects.map((p, i) => <Card card={p} key={i}/>)}
       </div>

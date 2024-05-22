@@ -4,7 +4,7 @@ import ICard from '../types/Card'
 
 const Card = ({card}: {card: ICard}) => {
   return (
-    <div className="flex rounded flex-col items-center shadow-xl dark:shadow-indigo-500/40 shadow-black-500/40 max-w-64 md:mr-5 md:ml-5 mb-8" id="card">
+    <div className="flex rounded flex-col items-center shadow-xl cursor-pointer duration-300 ease-in border border-zinc-200 dark:border-zinc-900 hover:shadow-indigo-500/40 shadow-black-500/40 max-w-64 md:mr-5 md:ml-5 mb-8" id="card">
       <div className="flex mt-10 rounded bg-whitegray p-5">
         {card.title == 'Caronas Burguer'? (
           <img src={Caronas} className="self-center" alt={card.title} width={120}/>
