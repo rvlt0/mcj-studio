@@ -50,11 +50,9 @@ const Header = () => {
         <li className="decoration-white dark:decoration-black hover:decoration-black dark:hover:decoration-white"><a href="#footer">Contato</a></li>
         <li className="decoration-white dark:decoration-black hover:decoration-black dark:hover:decoration-white"><a href="#project">Projetos</a></li>
         <ul className="hidden md:flex flex-row" id="social-medias">
-          <a href="#">
-            {theme == 'light' ?
-              (<FontAwesomeIcon onClick={toggleTheme} className="fa-xl px-5 cursor-pointer" icon={faMoon} />) : (<FontAwesomeIcon onClick={toggleTheme} className="fa-xl px-5 cursor-pointer" icon={faSun} />)
-            }
-          </a>
+          {theme == 'light' ?
+            (<FontAwesomeIcon onClick={toggleTheme} className="fa-xl px-5 cursor-pointer hover:text-purple" icon={faMoon} />) : (<FontAwesomeIcon onClick={toggleTheme} className="hover:text-purple fa-xl px-5 cursor-pointer" icon={faSun} />)
+          }
           <a href="https://github.com/MCJ-Studio" target="_blank">
             <FontAwesomeIcon className="fa-xl px-5 cursor-pointer" icon={faGithub} />
           </a>
@@ -64,11 +62,9 @@ const Header = () => {
         </ul>
       </ul>
       <ul className="sm:hidden absolute right-0 mr-5" id="social-medias">
-        <a href="#">
-          {theme == 'light' ?
-            (<FontAwesomeIcon onClick={toggleTheme} className="fa-xl px-5 cursor-pointer" icon={faMoon} />) : (<FontAwesomeIcon onClick={toggleTheme} className="fa-xl px-5 cursor-pointer" icon={faSun} />)
-          }
-        </a>
+        {theme == 'light' ?
+          (<FontAwesomeIcon onClick={toggleTheme} className="fa-xl px-5 cursor-pointer hover:text-purple" icon={faMoon} />) : (<FontAwesomeIcon onClick={toggleTheme} className="hover:text-purple fa-xl px-5 cursor-pointer" icon={faSun} />)
+        }
         <a href="https://github.com/MCJ-Studio" target="_blank">
           <FontAwesomeIcon className="fa-xl px-5 cursor-pointer" icon={faGithub} />
         </a>
