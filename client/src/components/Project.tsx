@@ -3,14 +3,14 @@ import Card from './Card';
 
 const Project = () => {
   const projects: ICard[] = [
-    {title: "Caronas Burguer", description: "Um site construido em PHP para uma hamburgueria local."},
-    {title: "Portfolio", description: "Um portfolio feito usando tecnologias como VueJS para a produção de um portfolio."},
+    { title: "Caronas Burguer", description: "Um site construido em ReactJS a partir do framework MaterialUI para uma hamburgueria local.", src: "https://caronas-burguer-v2.vercel.app/" },
+    { title: "Portfolio", description: "Um portfolio feito usando tecnologias como VueJS para a produção de um portfolio.", src: "https://portfolio-marcos-c1.vercel.app/" },
   ]
 
   return (
-    <section className="grid  sm:grid-cols-2 p-10 my-20" id="project">
+    <section className="grid sm:grid-cols-2 p-10 my-20" id="project">
       <div className="grid md:grid-cols-1 xl:grid-cols-2 justify-center grid-rows-auto mb-20 md:mr-20">
-        {projects.map((p, i) => <Card card={p} key={i}/>)}
+        {projects.map((p, i) => <Card card={p} key={i} />)}
       </div>
       <div>
         <div className="flex flex-col items-center">
