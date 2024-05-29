@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Color extracted from tailwind css */
+:root {
+  --tw-shadow-color: #6365f1;
+}
+
 @layer base {
   @font-face {
     font-family: "Inter", sans-serif;
@@ -12,7 +18,7 @@
 }
 
 button:hover {
- transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
 
 html {
@@ -27,7 +33,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-ul > li, ol > li {
+ul>li,
+ol>li {
   padding: 0 1em;
   cursor: pointer;
 }
@@ -35,7 +42,13 @@ ul > li, ol > li {
 a {
   color: inherit;
   user-select: none;
-  transition: text-decoration-color 300ms;
+
+}
+
+a:hover {
+  color: var(--tw-shadow-color);
+  -webkit-transition: all ease-in 0.2s;
+  transition: all ease-in 0.2s;
 }
 
 code {
